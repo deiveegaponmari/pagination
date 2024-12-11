@@ -1,0 +1,30 @@
+.table-data {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+tr:hover {
+    background-color: aquamarine;
+}
+
+#update-paginate {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
